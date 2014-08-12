@@ -2,39 +2,45 @@ body {
 	background-color: white;
 }
 
-
-
 #navcontainer ul {
 	text-align: center;
 	margin: 10px;
 	padding: 0;
 	list-style-type: none;
-	text-align: center;
-
-
+	text-align: right;
 }
 
 #navcontainer ul li {
 	display: inline;
 	margin-right: 5px;
+
 }
 
 #navcontainer ul li a {
 	text-decoration: none;
-	padding: .3em 1em;
+	padding: .2em .3em;
 	color: #fff;
 	background-color: #ed8a08;
 	border: 1px solid #274a50;
 	border-radius: 4px;
-
-
 }
 
 #navcontainer ul li a:hover {
 	color: #fff;
 	background-color: #274a50;
+}
 
+#socialmediacontainer ul {
+	text-align: center;
+	margin: 10px;
+	list-style-type: none;
+	text-align: right;
+	margin-top: -45px;
+}
 
+#socialmediacontainer ul li {
+	display: inline;
+	margin-right: 0px;
 }
 
 #mainpanel {
@@ -42,11 +48,11 @@ body {
 }
 
 .header	{
-	border-bottom: 3px solid black;
+	border-bottom: 2px solid black;
 	background: url("../img/aluminum_texture1642.jpg");
 	background-color: #ed8a08;
 	opacity: 50%;
-	
+
 }
 
 .navtop {
@@ -67,10 +73,11 @@ body {
 
 .tommainimage {
 	width: 100%;
+	margin-left: 10px;
 }
 
 .footer {
-	border-top: 3px solid black;
+	border-top: 2  px solid black;
 	margin-top: 30px;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -80,10 +87,19 @@ body {
 
 .tagline {
 	margin-top: -35px;
-	margin-bottom: 35px;
+	margin-bottom: 20px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid black;
 }
 
 .accordion {
 	margin-bottom: 20px;
 	border-radius: 4px;
+}
+
+.toolbox {
+	width: 40%;
+	margin-bottom: 10px;
+
+
 }
