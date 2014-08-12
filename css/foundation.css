@@ -3055,7 +3055,8 @@ ul.pagination {
       text-transform: uppercase; }
 
 .accordion {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  border: 1px solid black; }
   .accordion:before, .accordion:after {
     content: " ";
     display: table; }
@@ -3074,7 +3075,8 @@ ul.pagination {
       font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
       font-size: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
-        background: #e3e3e3; }
+        background: #ed8a08;
+         }
     .accordion .accordion-navigation > .content, .accordion dd > .content {
       display: none;
       padding: 0.9375rem; }

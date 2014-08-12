@@ -1,0 +1,89 @@
+body {
+	background-color: white;
+}
+
+
+
+#navcontainer ul {
+	text-align: center;
+	margin: 10px;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+
+
+}
+
+#navcontainer ul li {
+	display: inline;
+	margin-right: 5px;
+}
+
+#navcontainer ul li a {
+	text-decoration: none;
+	padding: .3em 1em;
+	color: #fff;
+	background-color: #ed8a08;
+	border: 1px solid #274a50;
+	border-radius: 4px;
+
+
+}
+
+#navcontainer ul li a:hover {
+	color: #fff;
+	background-color: #274a50;
+
+
+}
+
+#mainpanel {
+	border: 2px solid black;
+}
+
+.header	{
+	border-bottom: 3px solid black;
+	background: url("../img/aluminum_texture1642.jpg");
+	background-color: #ed8a08;
+	opacity: 50%;
+	
+}
+
+.navtop {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: right;
+	border: 2px solid black;
+	max-width: 75%;
+	text-align: center;
+
+}
+
+.pagetitle {
+	margin-top: 20px;
+	text-align: center;
+	max-width: 100%;
+}
+
+.tommainimage {
+	width: 100%;
+}
+
+.footer {
+	border-top: 3px solid black;
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	background: url("../img/aluminum_texture1642.jpg");
+}
+
+.tagline {
+	margin-top: -35px;
+	margin-bottom: 35px;
+}
+
+.accordion {
+	margin-bottom: 20px;
+	border-radius: 4px;
+}
