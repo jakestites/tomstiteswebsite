@@ -3057,6 +3057,7 @@ ul.pagination {
 .accordion {
   margin-bottom: 0;
   border: 1px solid black; }
+
   .accordion:before, .accordion:after {
     content: " ";
     display: table; }
@@ -3066,9 +3067,9 @@ ul.pagination {
     display: block;
     margin-bottom: 0 !important; }
     .accordion .accordion-navigation.active > a, .accordion dd.active > a {
-      background: #e8e8e8; }
+      background: url("../img/aluminum_texture1642.jpg"); }
     .accordion .accordion-navigation > a, .accordion dd > a {
-      background: #efefef;
+      background: url("../img/aluminum_texture1642.jpg");
       color: #222222;
       padding: 1rem;
       display: block;
