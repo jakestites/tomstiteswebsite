@@ -3,9 +3,9 @@
 #navcontainer ul {
 	text-align: center;
 	margin: 10px;
-	padding: 0;
+	padding: 5;
 	list-style-type: none;
-	text-align: right;
+	text-align: center;
 
 }
 
@@ -34,9 +34,10 @@
 #socialmediacontainer ul {
 	text-align: center;
 	margin: 10px;
+	margin-bottom: 20px;
 	list-style-type: none;
-	text-align: right;
-	margin-top: -45px;
+	
+	
 }
 
 #socialmediacontainer ul li {
@@ -44,8 +45,14 @@
 	margin-right: 0px;
 }
 
+
+
 #mainpanel {
 	border: 2px solid black;
+}
+
+.toolbox img {
+	width: 100%;
 }
 
 .header	{
@@ -85,9 +92,15 @@ box-shadow: 3px 4px 5px 0px rgba(31,29,31,1);
 }
 
 .tommainimage {
-	width: 100%;
-	margin-left: 10px;
+	text-align: center;
 }
+
+.tommainimage img {
+	max-width: 100%;
+	width: 90%;
+	min-width: 300px;
+}
+
 
 .footer {
 	border-top: 2px solid black;
@@ -105,6 +118,13 @@ box-shadow: 3px 4px 5px 0px rgba(31,29,31,1);
 	border-bottom: 1px solid black;
 }
 
+.tagline img {
+	max-width: 95%;
+	width: 90%;
+	text-align: center;
+	min-width: 300px;
+}
+
 .accordion {
 	margin-bottom: 20px;
 	border-radius: 4px;
@@ -113,6 +133,8 @@ box-shadow: 3px 4px 5px 0px rgba(31,29,31,1);
 .toolbox {
 	width: 40%;
 	margin-bottom: 10px;
+}
 
-
+.twitter-timeline {
+	height: 400px;
 }
