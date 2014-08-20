@@ -5,7 +5,7 @@
 	margin: 10px;
 	padding: 5;
 	list-style-type: none;
-	text-align: center;
+	text-align: right;
 
 }
 
@@ -54,6 +54,8 @@
 .toolbox img {
 	width: 100%;
 }
+
+
 
 .header	{
 	border-bottom: 2px solid black;
@@ -146,6 +148,7 @@ box-shadow: 3px 4px 5px 0px rgba(31,29,31,1);
 
 .tagline {
 	margin-top: -35px;
+	text-align: center;
 	margin-bottom: 20px;
 	padding-bottom: 25px;
 	border-bottom: 1px solid black;
