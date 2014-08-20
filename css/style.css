@@ -93,8 +93,6 @@ box-shadow: 3px 4px 5px 0px rgba(31,29,31,1);
 
 .tommainimage {
 	text-align: center;
-<<<<<<< HEAD
-=======
 }
 
 .tommainimage img {
@@ -134,8 +132,6 @@ box-shadow: 3px 4px 5px 0px rgba(31,29,31,1);
 
 .tomstitesswingdual img {
 	width: 90%;
-
->>>>>>> master
 }
 
 .tommainimage img {
@@ -166,12 +162,7 @@ box-shadow: 3px 4px 5px 0px rgba(31,29,31,1);
 	max-width: 95%;
 	width: 90%;
 	text-align: center;
-<<<<<<< HEAD
-	min-width: 280px;
-=======
 	min-width: 300px;
-
->>>>>>> master
 }
 
 .accordion {
@@ -186,4 +177,9 @@ box-shadow: 3px 4px 5px 0px rgba(31,29,31,1);
 
 .twitter-timeline {
 	height: 400px;
+}
+
+.orbit-slides-container {
+	/*height: auto !important;*/
+	min-height: 630px;
 }
